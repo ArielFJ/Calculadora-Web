@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="main">
+        <div id="historial-contenedor">
+            <input type="button" value="Limpiar" id="limpiar-btn">
+            <h1 align="center">Historial</h1>
+            <hr color="black">
+            <div id="historial"></div>
+        </div>
+        <div id="container">
+            <textarea readonly></textarea>
+            <div id="div-botones">
+                <input type="button" value="7" class="boton">
+                <input type="button" value="8" class="boton">
+                <input type="button" value="9" class="boton">
+                <input type="button" value="/" class="boton">
+                <br>
+                <input type="button" value="4" class="boton">
+                <input type="button" value="5" class="boton">
+                <input type="button" value="6" class="boton">
+                <input type="button" value="*" class="boton">
+                <br>
+                <input type="button" value="1" class="boton">
+                <input type="button" value="2" class="boton">
+                <input type="button" value="3" class="boton">
+                <input type="button" value="-" class="boton">
+                <br>
+                <input type="button" value="0" class="boton">
+                <input type="button" value="." class="boton">
+                <input type="button" value="=" class="boton">
+                <input type="button" value="+" class="boton" id="botonSuma">
+                <br>
+                <input type="button" value="00" class="boton">
+                <input type="button" value="CE" class="boton">
+                <input type="button" value="C" class="boton">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
